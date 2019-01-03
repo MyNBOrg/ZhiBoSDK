@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   #s.source_files  = "zhibo/*", "ZhiBoSDK/*"
   #s.exclude_files = "Classes/Exclude"
 
+  s.vendored_frameworks = "ZhiBoSDK.framework"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -51,7 +52,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "ZhiBoSDK"
+  # s.framework  = "ZhiBoSDK"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
