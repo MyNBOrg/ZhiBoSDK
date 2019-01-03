@@ -1,6 +1,0 @@
-framework module ZhiBoSDK {
-  umbrella header "ZhiBoSDK.h"
-
-  export *
-  module * { export * }
-}
