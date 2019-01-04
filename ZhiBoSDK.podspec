@@ -20,7 +20,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/MyNBOrg/ZhiBoSDK.git", :tag => "#{s.version}" }
 
 
-  s.vendored_frameworks = "ZhiBoSDK.framework"
+  #s.vendored_frameworks = "ZhiBoSDK.framework"
+  s.source_files  = 'Classes/*.{h,m}'
 
 
 end
