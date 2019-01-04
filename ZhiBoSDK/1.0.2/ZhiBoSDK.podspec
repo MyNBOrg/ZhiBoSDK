@@ -3,9 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZhiBoSDK"
-
-  s.version      = "1.0.3"
-
+  s.version      = "1.0.2"
   s.summary      = "short description"
 
   s.description  = "A long description of ZhiBoSDK.podspec. A short description of ZhiBoSDK.podspec. ESC"
