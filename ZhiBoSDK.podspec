@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZhiBoSDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "short description"
 
   s.description  = "A long description of ZhiBoSDK.podspec. A short description of ZhiBoSDK.podspec. ESC"
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/MyNBOrg/ZhiBoSDK.git", :tag => "#{s.version}" }
 
 
-  #s.vendored_frameworks = "ZhiBoSDK.framework"
-  s.source_files  = 'Classes/*.{h,m}'
+  s.vendored_frameworks = "ZhiBoSDK.framework"
+
 
 
 end
